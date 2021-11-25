@@ -1,0 +1,30 @@
+.homepage-wrapper {
+  /* margin: 2rem auto; */
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
+  padding-top: 100px;
+  align-items: center;
+}
+
+@media (max-width: 540px){
+  .homepage-wrapper{
+    margin: 2rem auto;
+    align-items: center;
+  }
+  img{
+    max-width: 360px;;
+  }
+}
+
+.btn {
+  display: grid;
+  width: 200px;
+  height: 50px;
+  place-items: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  background-color: black;
+  margin-bottom: 2rem;
+}
